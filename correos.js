@@ -18,6 +18,7 @@ module.exports = function(codigo){
 		if (r != -1){
 			console.log('se obtuvo respuesta de chileexpress');
 			console.log(r);
+			r['servicio'] = 'chileexpress';
 			return r;
 		}
 		return false;
