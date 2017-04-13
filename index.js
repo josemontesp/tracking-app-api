@@ -29,6 +29,7 @@ app.use(function(req, res, next) {
 
 //trackea un codigo
 app.post('/track', routes.track);
+app.get('/track', routes.track);
 
 
 
